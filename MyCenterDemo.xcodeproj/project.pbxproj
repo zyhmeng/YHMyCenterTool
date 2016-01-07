@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06010D541C3DF97800D8FAC5 /* YFAlertViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 06010D531C3DF97800D8FAC5 /* YFAlertViewTool.m */; };
 		0645C7191C3D15F80075AC77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C7181C3D15F80075AC77 /* main.m */; };
 		0645C71C1C3D15F80075AC77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C71B1C3D15F80075AC77 /* AppDelegate.m */; };
 		0645C71F1C3D15F80075AC77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C71E1C3D15F80075AC77 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		0645C7271C3D15F80075AC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0645C7251C3D15F80075AC77 /* LaunchScreen.storyboard */; };
 		0645C7321C3D15F80075AC77 /* MyCenterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C7311C3D15F80075AC77 /* MyCenterDemoTests.m */; };
 		0645C73D1C3D15F80075AC77 /* MyCenterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C73C1C3D15F80075AC77 /* MyCenterDemoUITests.m */; };
+		0645C74C1C3D16210075AC77 /* YFTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C74B1C3D16210075AC77 /* YFTableViewTool.m */; };
+		0645C74F1C3D1A700075AC77 /* YFMyCenterTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0645C74E1C3D1A700075AC77 /* YFMyCenterTableViewTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06010D521C3DF97800D8FAC5 /* YFAlertViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAlertViewTool.h; sourceTree = "<group>"; };
+		06010D531C3DF97800D8FAC5 /* YFAlertViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAlertViewTool.m; sourceTree = "<group>"; };
 		0645C7141C3D15F80075AC77 /* MyCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0645C7181C3D15F80075AC77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0645C71A1C3D15F80075AC77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		0645C7381C3D15F80075AC77 /* MyCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0645C73C1C3D15F80075AC77 /* MyCenterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCenterDemoUITests.m; sourceTree = "<group>"; };
 		0645C73E1C3D15F80075AC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0645C74A1C3D16210075AC77 /* YFTableViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTableViewTool.h; sourceTree = "<group>"; };
+		0645C74B1C3D16210075AC77 /* YFTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTableViewTool.m; sourceTree = "<group>"; };
+		0645C74D1C3D1A700075AC77 /* YFMyCenterTableViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMyCenterTableViewTool.h; sourceTree = "<group>"; };
+		0645C74E1C3D1A700075AC77 /* YFMyCenterTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMyCenterTableViewTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		0645C7161C3D15F80075AC77 /* MyCenterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				06010D521C3DF97800D8FAC5 /* YFAlertViewTool.h */,
+				06010D531C3DF97800D8FAC5 /* YFAlertViewTool.m */,
+				0645C74A1C3D16210075AC77 /* YFTableViewTool.h */,
+				0645C74B1C3D16210075AC77 /* YFTableViewTool.m */,
+				0645C74D1C3D1A700075AC77 /* YFMyCenterTableViewTool.h */,
+				0645C74E1C3D1A700075AC77 /* YFMyCenterTableViewTool.m */,
 				0645C71A1C3D15F80075AC77 /* AppDelegate.h */,
 				0645C71B1C3D15F80075AC77 /* AppDelegate.m */,
 				0645C71D1C3D15F80075AC77 /* ViewController.h */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0645C74C1C3D16210075AC77 /* YFTableViewTool.m in Sources */,
 				0645C71F1C3D15F80075AC77 /* ViewController.m in Sources */,
+				0645C74F1C3D1A700075AC77 /* YFMyCenterTableViewTool.m in Sources */,
 				0645C71C1C3D15F80075AC77 /* AppDelegate.m in Sources */,
+				06010D541C3DF97800D8FAC5 /* YFAlertViewTool.m in Sources */,
 				0645C7191C3D15F80075AC77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunfeng.MyCenterDemo;
@@ -424,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunfeng.MyCenterDemo;
@@ -498,6 +518,7 @@
 				0645C7431C3D15F80075AC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0645C7441C3D15F80075AC77 /* Build configuration list for PBXNativeTarget "MyCenterDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				0645C7461C3D15F80075AC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0645C7471C3D15F80075AC77 /* Build configuration list for PBXNativeTarget "MyCenterDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				0645C7491C3D15F80075AC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

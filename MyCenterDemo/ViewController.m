@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "YFAlertViewTool.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<YFMyCenterTableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end
 
@@ -16,12 +20,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.yfTableViewTool = [[YFMyCenterTableViewTool alloc]init];
+    self.yfTableViewTool.yfMyCenterTableViewDelegate = self;
+    self.tableView.delegate = self.yfTableViewTool;
+    self.tableView.dataSource = self.yfTableViewTool;
+    
+    self.yfTableViewTool.cellTitleDataList = [NSArray arrayWithObjects:[NSArray arrayWithObjects:@"充值", nil],[NSArray arrayWithObjects:@"我的缴费记录",@"我的报修",@"我的租赁", nil], [NSArray arrayWithObjects:@"我的银行卡",nil],nil];
+    
+    self.yfTableViewTool.cellImgDataList = [NSArray arrayWithObjects: [NSArray arrayWithObjects:@"充值", nil],[NSArray arrayWithObjects:@"我的缴费记录",@"我的报修",@"我的租赁", nil], [NSArray arrayWithObjects:@"我的银行卡",nil],nil];
+    
+    [self.tableView reloadData];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - YFMyCenterTableViewDelegate
+- (void)tableViewDidSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    [YFAlertViewTool showActionAlertStyleInViewController:self title:@"此功能暂未开放" message:nil okTitle:@"确定" cancelTitlt:@"取消" okBtnHandler:^(UIAlertAction * _Nonnull action) {
+        
+    } cancelBtnHandler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
 }
 
 @end
