@@ -29,7 +29,9 @@
     self.yfTableViewTool.cellTitleDataList = [NSArray arrayWithObjects:[NSArray arrayWithObjects:@"充值", nil],[NSArray arrayWithObjects:@"我的缴费记录",@"我的报修",@"我的租赁", nil], [NSArray arrayWithObjects:@"我的银行卡",nil],nil];
     
     self.yfTableViewTool.cellImgDataList = [NSArray arrayWithObjects: [NSArray arrayWithObjects:@"充值", nil],[NSArray arrayWithObjects:@"我的缴费记录",@"我的报修",@"我的租赁", nil], [NSArray arrayWithObjects:@"我的银行卡",nil],nil];
-    
+    UIView *headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 200)];
+    headerView.backgroundColor = [UIColor orangeColor];
+    self.tableView.tableHeaderView = headerView;
     [self.tableView reloadData];
     
 }

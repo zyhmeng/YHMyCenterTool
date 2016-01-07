@@ -54,4 +54,6 @@
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     [self.yfMyCenterTableViewDelegate tableViewDidSelectRowAtIndexPath:indexPath];
 }
+
+
 @end
